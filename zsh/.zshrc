@@ -97,11 +97,7 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 # Aliases
-alias ls="ls -l --color=auto"
-alias vi="nvim"
-alias vim="nvim"
 
 path+=(/usr/local/go/bin)
 path+=(/snap/bin)
 
-alias gam="/home/nicholas/bin/gam/gam"
