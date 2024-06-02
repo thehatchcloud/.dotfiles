@@ -5,7 +5,7 @@ vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
 -- Sets
 -- Set the colorscheme
-vim.cmd.colorscheme('rose-pine-main')
+vim.cmd.colorscheme('catppuccin-mocha')
 
 -- Set line numbers
 vim.opt.nu = true

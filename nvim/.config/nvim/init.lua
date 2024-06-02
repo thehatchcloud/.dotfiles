@@ -71,7 +71,7 @@ require("lazy").setup({
 
 
 	-- Color schemes go here
-	{ 'rose-pine/neovim', name = 'rose-pine' },
+	{ "catppuccin/nvim", name = "catppuccin", priority = 1000 },
     {
         "tadmccorkle/markdown.nvim",
         ft = "markdown", -- or 'event = "VeryLazy"'
@@ -85,4 +85,4 @@ require("lazy").setup({
 })
 
 -- Additional loads
-require("thehatchcloud")
+require("nwhatch")
